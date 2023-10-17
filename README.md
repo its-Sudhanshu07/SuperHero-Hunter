@@ -18,5 +18,5 @@ Created an Superhero Hunting app. Marvel API is used to fetch the data of marvel
 
 ## Screenshots
 
-![MainPage](https://drive.google.com/file/d/1l-2WnuPPyN2RnG3DFfkkNkQXTfx28a1B/view?usp=drivesdk)
+![MainPage](https://drive.google.com/file/d/1lA6HqMtsi8HQcu49IDuu77kg2bV4MQaV/view?usp=drivesdk)
 
