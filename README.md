@@ -16,7 +16,17 @@ Created an Superhero Hunting app. Marvel API is used to fetch the data of marvel
 # Preview of Project
 
 
-## Screenshots
+## Main page
 
-![MainPage](https://th.bing.com/th/id/R.d58339de61b5d07fd4db988f8e8a7cdd?rik=SfZdJyKhxDm1VQ&pid=ImgRaw&r=0)
+![Main-Page](https://github.com/its-Sudhanshu07/SuperHero-Hunter/blob/master/screenshots/Screenshot%202023-10-18%20023917.png?raw=true)
+## Favourite page
+
+![Favourite-Page](https://github.com/its-Sudhanshu07/SuperHero-Hunter/blob/master/screenshots/Screenshot%202023-10-18%20022736.png?raw=true)
+
+
+## More-info
+
+![Description-Page](https://github.com/its-Sudhanshu07/SuperHero-Hunter/blob/master/screenshots/Screenshot%202023-10-18%20022458.png?raw=true)
+
+
 
