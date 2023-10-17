@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">Super hero Hunter</title>
+
+    <!-- for icons -->
+    <script src="https://kit.fontawesome.com/df98e19b56.js" crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="Assets/css/more-info.css">
+    <link rel="stylesheet" href="Assets/css/mainpage.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="light flex">
+        <!-- Navbar -->
+        <nav class="flex">
+                <h1>Superhero Hunter</h1>
+
+            <!-- Favourites Button -->
+            <div class="nav-buttons flex">
+                <a href="./favourite.html" class="favs-btn flex">
+                    <i id="fav-icon" class="fa-solid fa-heart"></i>
+                    <p id="toggleText">Favourites</p>
+                </a>
+                <a href="./index.html" class="favs-btn flex">
+                    <i class="fa-solid fa-house"></i>
+                    <p id="toggleText">Home</p>
+                </a>
+            </div>
+        </nav>
+    </header>
+    
+    <!-- main -->
+    <main class="light flex main">
+            <img src="./Assets/images/Char.jpeg" alt="">
+        <!-- Info Container -->
+        <section class="hero-info-box">
+            <div id="character-info-container" class="flex info-box">
+                <!-- Sturcture of the data that is added to favourites using DOM manipulation -->
+                
+                <!-- <div class="hero-name">${heroInfo.name}</div>
+                <div class="flex hero-img-and-more-info">
+                     <img id="portraitImage" class="hero-img" src="${heroInfo.portraitImage}" alt="">
+                     <img style="display:none;" id="landscapeImage" src="${heroInfo.landscapeImage}" alt="">
+                     
+                     <div class="more-info">
+                          <div class="id">
+                               <b>ID:</b><span>${heroInfo.id}</span>
+                          </div>
+                          <div class="comics">
+                               <b>Comics:</b><span>${heroInfo.comics}</span>
+                          </div>
+                          <div class="series">
+                               <b>Series:</b><span>${heroInfo.series}</span>
+                          </div>
+                          <div class="stories">
+                               <b>Stories:</b><span>${heroInfo.stories}</span>
+                          </div>
+                     </div>
+                </div>
+                <div class="hero-discription">
+                     <b>Discription:</b>
+                     <p>${heroInfo.description != "" ? heroInfo.description : "No Description Available"}</p>
+                </div>
+                <div style="display:none;">
+                     <span>${heroInfo.name}</span>
+                     <span>${heroInfo.portraitImage}</span>
+                     <span>${heroInfo.landscapeImage}</span>
+                     <span>${heroInfo.id}</span>
+                     <span>${heroInfo.comics}</span>
+                     <span>${heroInfo.series}</span>
+                     <span>${heroInfo.stories}</span>
+                     <span>${heroInfo.squareImage}</span>
+                     <span>${heroInfo.description}</span>
+                </div>
+                <button class="btn add-to-fav-btn">
+                    ${favouritesCharacterIDs.has(`${heroInfo.id}`) ? 
+                        '<i class="fa-solid fa-heart-circle-minus"></i> &nbsp; Remove from Favourites' :
+                        '<i class="fa-solid fa-heart fav-icon"></i> &nbsp; Add to Favourites'
+                    }
+                </button> -->
+           </div>
+        </section>
+
+        <!-- Toasts for notifying user that character is added or removed from favourites -->
+        <asid>
+            <span hidden class="popup fav-toast">Added to Favourites</span>
+        </asid>
+
+        <aside>
+            <span hidden class="popup remove-toast">Removed from Favourites</span>
+        </aside>
+    </main>
+    
+
+
+   <!-- script -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>   
+    <script src="Assets/js/mainpage.js"></script>
+    <script src="Assets/js/more-info.js"></script>
+    
+</body>
+</html>
